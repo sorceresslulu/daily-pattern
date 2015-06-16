@@ -15,3 +15,7 @@ Util::println("AP Build:");
 $apBuilder = new \BuilderExample\ChampionItemization(new \BuilderExample\ItemizationBuilder\APBuild());
 $apBuilder->build();
 $apBuilder->report();
+
+/**
+ * Suddenly, not a canonical way of Builder implementation
+ */
